@@ -15,10 +15,12 @@ body {
 }
 
 .wrapper {
-  padding: 40px 10px;
-  width: 80vw;
+  padding: 20px 10px;
+  width: 78vw;
   display: flex;
-  background-color: #f9fafd;
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -26,7 +28,7 @@ body {
   width: 50%;
   flex-shrink: 3;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
   padding: 0 30px;
 }
@@ -40,6 +42,11 @@ body {
 .header__text-second {
   color: #8d97d3;
   font-size: 25px;
+  margin-top: 30px;
+}
+
+.header__text-main {
+  margin-bottom: 10px;
 }
 
 .header__heading {
@@ -55,9 +62,12 @@ body {
 
 .header__btn {
   padding: 6px 10px;
+  margin-top: 30px;
   border: none;
   border-radius: 5%;
   text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
   color: #fff;
   background-color: #ffab02;
   cursor: pointer;
@@ -65,8 +75,10 @@ body {
 
 .card-container {
   display: flex;
-  width: 50%;
+  align-items: center;
+  width: 60%;
   flex-direction: column;
+  padding: 30px;
 }
 
 .card-container-wrapper {
@@ -75,6 +87,7 @@ body {
   width: 80%;
   height: 50%;
   font-size: 15px;
+  padding: 15px 0;
 }
 
 .card {
@@ -82,6 +95,7 @@ body {
   margin: 0px 12px;
   border: 1px solid rgba(58, 53, 53, 0.164);
   color: #1a237e;
+  background-color: #fff;
 }
 
 .card > * {
